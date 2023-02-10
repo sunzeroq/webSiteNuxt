@@ -3,7 +3,7 @@
     <Header></Header>
     <div class="container-main">
         <Menu></Menu>
-        <slot />
+        <slot></slot>
     </div>
   </div>
 </template>
@@ -33,6 +33,6 @@ export default {
 }
 .container-main {
 	display: flex;
-	height: 100%;
+	height: calc(100% - 58px);
 }
 </style>>

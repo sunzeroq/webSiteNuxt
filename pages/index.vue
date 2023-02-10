@@ -1,9 +1,7 @@
 <template>
 	<NuxtLayout>
 		<div class="content">
-			<NuxtLink to="/about">About</NuxtLink>
-			<NuxtLink to="/demo">demo</NuxtLink>
-			
+			1111
 		</div>
 	</NuxtLayout>
 </template>

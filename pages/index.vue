@@ -6,11 +6,8 @@
 	</NuxtLayout>
 </template>
 
-<script>
+<script setup>
 
-export default {
-    name: "index"
-};
 </script>
 
 <style lang="scss">

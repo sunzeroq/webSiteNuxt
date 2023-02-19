@@ -4,7 +4,10 @@ export default defineNuxtConfig({
         '@nuxt/content',
     ],
     content: {
-        documentDriven: true
+        documentDriven: true,
+        navigation: {
+            fields: ['author', 'publishedAt', 'tag']
+        }
     },
     css: [
         '@/assets/style/index.scss'

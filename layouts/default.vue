@@ -7,7 +7,7 @@
 		</div>
 		<div
 			class="dark-light"
-			@click="switchDark"
+			@click="switchDark()"
 		>
 			<svg
 				viewBox="0 0 24 24"
@@ -24,8 +24,6 @@
 </template>
 
 <script setup>
-	import Header from "@/components/Header.vue"
-	import Menu from "@/components/Menu.vue"
 	const switchDark = () => {
 		document.body.classList.toggle("light-mode")
 	}
@@ -93,11 +91,6 @@
 		top: 0;
 		width: 100%;
 		height: 100vh;
-		background: linear-gradient(
-			180deg,
-			rgba(255, 255, 255, 0.72) 0%,
-			rgb(255 255 255 / 45%) 100%
-		);
 		backdrop-filter: saturate(3);
 	}
 </style>
